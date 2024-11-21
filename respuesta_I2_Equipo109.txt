@@ -1,0 +1,18 @@
+NANDIN Ezequiel
+MARTIN Marcos
+
+a- Para actualizar tu repositorio local con los cambios del repositorio original (upstream):
+	
+b- No directamente. Los forks no están vinculados entre sí.
+ALFA debería agregar el repositorio de GAMMA como un remoto adicional para traer los cambios.
+
+c- Sí, siguiendo el mismo procedimiento que en la pregunta anterior
+
+d- No necesariamente. Sin embargo, si los cambios que hice entran en conflicto con los cambios
+traídos del repositorio original o de otro fork, tendre que resolver los conflictos manualmente.
+	
+e- estos son los comandos que utilizamos. En cada caso particular solo cambiamos quien lo actualiza
+1. git remote add upstream <url del repo>
+2. git fetch upstream
+3. git merge upstream/main
+4. git push origin main
